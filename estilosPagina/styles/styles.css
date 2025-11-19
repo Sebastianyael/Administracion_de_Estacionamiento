@@ -81,6 +81,13 @@ header {
     cursor: pointer;
 }
 
+.DASHBOARD{
+    background-color: var(--button-colors);
+    color: var(--background-color);
+    height: 8vh;
+
+}
+
 /* ------------------ SECCIÓN INICIO ------------------ */
 
 .div-inicio {
