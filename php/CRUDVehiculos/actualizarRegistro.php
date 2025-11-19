@@ -1,5 +1,5 @@
 <?php
-    require '../../bd/ConexionBd.php';
+    require '../../bd/ConexionBD.php';
 
     $id = $_POST['id'];
     $dueño = $_POST['propietario'];
