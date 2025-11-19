@@ -1,6 +1,9 @@
 # Usar la imagen oficial de PHP con Apache
 FROM php:8.2-apache
 
+# Instalar mysqli y otras extensiones necesarias
+RUN docker-php-ext-install mysqli pdo pdo_mysql
+
 # Copiar archivos del proyecto
 COPY . /var/www/html/
 
@@ -16,5 +19,6 @@ EXPOSE 10000
 
 # Iniciar Apache
 CMD ["apache2-foreground"]
+
 
 
