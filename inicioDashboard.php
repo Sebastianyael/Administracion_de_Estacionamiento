@@ -50,6 +50,13 @@
                 Historial
             </button>
         </a>
+
+        <a href="./Screens/usuario.php">
+            <button type="submit" class="button">
+                <i class="fa-solid fa-person"></i>
+                Administradores
+            </button>
+        </a>
     </aside>
 
     <div class="main">
@@ -87,6 +94,14 @@
                     <i class="fa-solid fa-clock"></i>
                     <h3>Historial</h3>
                     <p>Vehiculos en el estacionamiento</p>
+                </div>
+            </a>
+
+            <a href="./Screens/usuario.php" class="ancla">
+                <div class="acceso-rapido-container">
+                    <i class="fa-solid fa-person"></i>
+                    <h3>Administradores</h3>
+                    <p>Administradores del Sistema</p>
                 </div>
             </a>
             
