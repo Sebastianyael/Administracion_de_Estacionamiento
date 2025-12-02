@@ -44,6 +44,13 @@
                 Historial
             </button>
         </a>
+
+        <a href="../Screens/usuario.php">
+            <button type="submit" class="button button-admins">
+                <i class="fa-solid fa-person"></i>
+                Administradores
+            </button>
+        </a>
     </aside>
     
 </body>

@@ -1,0 +1,144 @@
+.button-admins{
+    background-color: var(--button-color);
+    color: white;
+}
+
+.registar-usuario{
+    width: 98%;
+    height: 14vh;
+    padding: 5px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+    .registar-usuario input{
+        width: 20%;
+        height: 4vh;
+        padding: 5px;
+        border-radius: 10px;
+        border: 1px solid black;
+        outline: none;
+    }
+
+    .registrar-admins{
+        width: 12%;
+        height: 5vh;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--button-color);
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        color: white;
+        transition: 0.4s ease all;
+    }
+
+    .registrar-admins:hover{
+        transition: 0.4s ease all;
+        transform: translateY(-7px);
+    }
+
+ .actualizar-Button{
+        width: 10%;
+        height: 4vh;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--button-color);
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        color: white;
+        transition: 0.4s ease all;
+    }
+
+.usuaurios-container{
+    width: 97%;
+    height: 55vh;
+    padding: 10px;
+    display: flex;
+    overflow: scroll;   
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+    .usuaurios-container div{
+        width: 45%;
+        height: 28vh;
+        display: flex;
+        padding: 5px;
+        align-items: center;
+      gap: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.20);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .usuaurios-container div i{
+        font-size:70px;
+        color: var(--button-color);
+    }
+
+.actualizar-registro{
+    height: 26vh;
+    width: 50%;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .actualizar-registro input{
+        width: 50%;
+        height: 3vh;
+        outline: none;
+        padding: 2px;
+    }
+
+    .actualizar-registro button{
+        width: 30%;
+        height: 4vh;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--button-color);
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        color: white;
+        transition: 0.4s ease all;
+    }
+
+    .actualizar-registro button:hover{
+        transform: translateY(-5px);
+        transition: 0.3s ease all;
+    }
+
+.eliminar-registro{
+    width: 15%;
+    height: 27vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+    .eliminar-registro button{
+        width: 100%;
+        height: 4vh;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        background-color: red;
+    }
+
+    .eliminar-registro button:hover{
+        transform: translateY(-5px);
+        transition: 0.3s ease all;
+    }
