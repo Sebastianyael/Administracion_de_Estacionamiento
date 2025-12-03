@@ -51,6 +51,13 @@
                 Administradores
             </button>
         </a>
+
+        <a href="../Screens/incidencias.php">
+            <button type="submit" class="button button-incidencias">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                Incidencias
+            </button>
+        </a>
     </aside>
     
 </body>

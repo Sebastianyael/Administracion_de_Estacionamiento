@@ -57,6 +57,13 @@
                 Administradores
             </button>
         </a>
+
+        <a href="./Screens/incidencias.php">
+            <button type="submit" class="button">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                Incidencias
+            </button>
+        </a>
     </aside>
 
     <div class="main">
@@ -104,7 +111,14 @@
                     <p>Administradores del Sistema</p>
                 </div>
             </a>
-            
+
+            <a href="./Screens/incidencias.php" class="ancla">
+                <div class="acceso-rapido-container">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <h3>Incidencias</h3>
+                    <p>Reporta cualquier incoformidad</p>
+                </div>
+            </a>
         </div>
 
     </div>  
