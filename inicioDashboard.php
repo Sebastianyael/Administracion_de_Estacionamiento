@@ -78,6 +78,13 @@
                 Servicios
             </button>
         </a>
+
+        <a href="./Screens/metodosPago.php">
+            <button type="submit" class="button">
+                <i class="fa-solid fa-credit-card"></i>
+                Servicios
+            </button>
+        </a>
     </aside>
 
     <div class="main">
@@ -150,7 +157,7 @@
                 </div>
             </a>
             
-            <a href="./Screens/metodoPago.php" class="ancla">
+            <a href="./Screens/metodosPago.php" class="ancla">
                 <div class="acceso-rapido-container">
                     <i class="fa-solid fa-credit-card"></i>
                     <h3>Metodos de Pago</h3>
