@@ -1,0 +1,89 @@
+:root{
+     --button-color: #1F9EF9;
+}
+
+.button-pagos{
+    color: white;
+    background-color: var(--button-color);
+}
+
+.formulario-metodos{
+    width: 98%;
+    height: 20vh;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+
+    .formulario-metodos input{
+        width: 20%;
+        height: 4vh;
+        padding: 5px;
+        border-radius: 10px;
+        border: 1px solid black;
+        outline: none;
+       
+    }
+
+    .formulario-metodos button {
+        width: 10%;
+        height: 5vh;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--button-color);
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        color: white;
+        transition: 0.4s ease all;
+    }
+
+.tarjetas-pagos-container{
+    width: 97%;
+    height: 58vh;
+    overflow: scroll;
+    display: flex;
+    gap: 100px;
+    padding: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.tarjetas-pagos-container div{
+    width: 15%;
+    height: 10vh;
+    border: 2px solid red;
+    padding: 5px;
+    border: 2px solid var(--button-color);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.tarjetas-pagos-container div i{
+    color: var(--button-color);
+}
+
+.actualizar-Button{
+    color: white;
+    background-color: var(--button-color);
+    border: none;
+    width: 10%;
+    height: 4vh;
+    border-radius: 10px;
+}
+
+h3{
+    color: var(--button-color);
+}
+
+.eliminarButton{
+    width: auto;
+    height: 3vh;
+    background-color: red;
+    color: white;
+    border: none;
+}

@@ -64,6 +64,20 @@
                 Incidencias
             </button>
         </a>
+
+        <a href="./Screens/Horarios.php">
+            <button type="submit" class="button">
+                <i class="fas fa-calendar-alt"></i>
+                Horarios
+            </button>
+        </a>
+
+        <a href="./Screens/servicios.php">
+            <button type="submit" class="button">
+                <i class="fas fa-tint"></i>
+                Servicios
+            </button>
+        </a>
     </aside>
 
     <div class="main">
@@ -117,6 +131,30 @@
                     <i class="fa-solid fa-triangle-exclamation"></i>
                     <h3>Incidencias</h3>
                     <p>Reporta cualquier incoformidad</p>
+                </div>
+            </a>
+
+            <a href="./Screens/horarios.php" class="ancla">
+                <div class="acceso-rapido-container">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Horarios</h3>
+                    <p>Tiempo Visible</p>
+                </div>
+            </a>
+
+            <a href="./Screens/horarios.php" class="ancla">
+                <div class="acceso-rapido-container">
+                    <i class="fas fa-tint"></i>
+                    <h3>Servicios</h3>
+                    <p>Servicios para rentar</p>
+                </div>
+            </a>
+            
+            <a href="./Screens/metodoPago.php" class="ancla">
+                <div class="acceso-rapido-container">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h3>Metodos de Pago</h3>
+                    <p>Elije un metodo para pagar</p>
                 </div>
             </a>
         </div>

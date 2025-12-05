@@ -58,6 +58,27 @@
                 Incidencias
             </button>
         </a>
+
+        <a href="../Screens/Horarios.php">
+            <button type="submit" class="button button-horarios">
+                <i class="fas fa-calendar-alt"></i>
+                Horarios
+            </button>
+        </a>
+
+        <a href="../Screens/servicios.php">
+            <button type="submit" class="button button-servicios">
+                <i class="fas fa-tint"></i>
+                Servicios
+            </button>
+        </a>
+
+        <a href="../Screens/metodosPago.php">
+            <button type="submit" class="button button-pagos">
+                <i class="fa-solid fa-credit-card"></i>
+                Metodos de Pago
+            </button>
+        </a>
     </aside>
     
 </body>
