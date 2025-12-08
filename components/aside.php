@@ -86,6 +86,13 @@
                 Promociones
             </button>
         </a>
+
+        <a href="../Screens/productos.php">
+            <button type="submit" class="button button-produc">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Productos
+            </button>
+        </a>
     </aside>
     
 </body>
