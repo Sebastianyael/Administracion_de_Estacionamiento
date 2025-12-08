@@ -79,6 +79,13 @@
                 Metodos de Pago
             </button>
         </a>
+
+        <a href="../Screens/promociones.php">
+            <button type="submit" class="button button-promo">
+                <i class="fa-solid fa-percent"></i>
+                Promociones
+            </button>
+        </a>
     </aside>
     
 </body>

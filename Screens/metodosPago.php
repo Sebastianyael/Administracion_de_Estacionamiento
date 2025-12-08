@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../assets/styles/pagos.css?v=<?php echo time(); ?>">
 </head>
 <body>
-    <div class="main" style="border:1px solid red;">
+    <div class="main" >
 
         <form method="post" action="../php/CRUDPagos/registrarMetodo.php" class="formulario-metodos">
             <input type="text" name="pago"  placeholder="Metodo de Pago" required>

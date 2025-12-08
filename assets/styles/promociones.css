@@ -1,0 +1,81 @@
+.button-promo{
+    background-color: var(--button-color);
+    color: white;
+}
+
+.insertar-promo{
+    width: 97%;
+    height: 25vh;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+        
+}
+
+.insertar-promo input,textarea{
+    width: 20%;
+    height: 4vh;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none; 
+}
+
+.insertar-promo button{
+    width: 10%;
+        height: 4vh;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--button-color);
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        color: white;
+        transition: 0.4s ease all;
+}
+
+.actualizar-Button{
+        width: 10%;
+        height: 4vh;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--button-color);
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        color: white;
+        transition: 0.4s ease all;
+}
+
+.promociones-container{
+    width: 96%;
+    height: 50vh;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: scroll;
+}
+
+    .promociones-container div{
+        width: 48%;
+        height: 30vh;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.20);
+    }
+
+.form-edicion{
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-edicion textarea{
+    width: 90%;
+}

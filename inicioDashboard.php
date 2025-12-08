@@ -85,6 +85,13 @@
                 Servicios
             </button>
         </a>
+
+        <a href="./Screens/promociones.php">
+            <button type="submit" class="button button-promo">
+                <i class="fa-solid fa-percent"></i>
+                Promociones
+            </button>
+        </a>
     </aside>
 
     <div class="main">
@@ -162,6 +169,14 @@
                     <i class="fa-solid fa-credit-card"></i>
                     <h3>Metodos de Pago</h3>
                     <p>Elije un metodo para pagar</p>
+                </div>
+            </a>
+
+            <a href="./Screens/promociones.php" class="ancla">
+                <div class="acceso-rapido-container">
+                    <i class="fa-solid fa-percent"></i>
+                    <h3>Promociones</h3>
+                    <p>Paga menos</p>
                 </div>
             </a>
         </div>

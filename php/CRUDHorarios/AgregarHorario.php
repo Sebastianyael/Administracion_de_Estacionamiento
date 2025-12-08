@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $apertura = $_POST['apertura'];
     $cierre = $_POST['cierre'];
 
-    // Validar horarios duplicados (un día solo debe tener un horario)
+    
     $check = $conexion->prepare("SELECT * FROM horarios WHERE dia = ?");
     $check->bind_param("s", $dia);
     $check->execute();
@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         exit;
     }
 
-    // Insertar en BD
+  
     $insert = $conexion->prepare("INSERT INTO horarios(dia, hora_apertura, hora_cierre)
                                   VALUES (?, ?, ?)");
     $insert->bind_param("sss", $dia, $apertura, $cierre);
