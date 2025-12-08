@@ -1,0 +1,85 @@
+.button-produc{
+    background-color: var(--button-color);
+    color: white;
+}
+
+.insertar-producto{
+    width: 97%;
+    height: 17vh;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+        
+}
+
+.insertar-producto input,textarea{
+    width: 20%;
+    height: 4vh;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none; 
+}
+
+.insertar-producto button{
+    width: 15%;
+        height: 4vh;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--button-color);
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        color: white;
+        transition: 0.4s ease all;
+}
+
+.actualizar-Button{
+        width: 10%;
+        height: 4vh;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--button-color);
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        color: white;
+        transition: 0.4s ease all;
+}
+
+.productos-container{
+    width: 96%;
+    height: 55vh;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: scroll;
+    border: 2px solid green;
+}
+
+    .productos-container div{
+        width: 46%;
+        height: 28vh;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.20);
+        padding: 10px;
+        
+    }
+
+.form-edicion{
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.form-edicion textarea{
+    width: 90%;
+}

@@ -82,7 +82,7 @@
         <a href="./Screens/metodosPago.php">
             <button type="submit" class="button">
                 <i class="fa-solid fa-credit-card"></i>
-                Servicios
+                Metodos de Pago
             </button>
         </a>
 
@@ -90,6 +90,13 @@
             <button type="submit" class="button button-promo">
                 <i class="fa-solid fa-percent"></i>
                 Promociones
+            </button>
+        </a>
+
+        <a href="./Screens/productos.php">
+            <button type="submit" class="button button-produc">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Productos
             </button>
         </a>
     </aside>
@@ -177,6 +184,14 @@
                     <i class="fa-solid fa-percent"></i>
                     <h3>Promociones</h3>
                     <p>Paga menos</p>
+                </div>
+            </a>
+
+            <a href="./Screens/productos.php" class="ancla">
+                <div class="acceso-rapido-container">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Productos</h3>
+                    <p>Productos a la venta</p>
                 </div>
             </a>
         </div>
