@@ -93,6 +93,13 @@
                 Productos
             </button>
         </a>
+
+        <a href="../Screens/mensualidades.php">
+            <button type="submit" class="button button-mensualidades">
+                <i class="fa-solid fa-calendar-day"></i>
+                Mensualidades
+            </button>
+        </a>
     </aside>
     
 </body>
