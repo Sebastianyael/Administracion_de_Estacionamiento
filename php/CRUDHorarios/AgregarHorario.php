@@ -13,10 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $check->execute();
     $res = $check->get_result();
 
-    if ($res->num_rows > 0) {
-        echo "<script>alert('❌ Ese día ya tiene un horario registrado.'); window.location='../../Screens/horarios.php';</script>";
-        exit;
-    }
+
 
   
     $insert = $conexion->prepare("INSERT INTO horarios(dia, hora_apertura, hora_cierre)

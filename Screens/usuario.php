@@ -35,7 +35,7 @@
         <?php
             require '../bd/ConexionBD.php';
 
-            $seleccion = "SELECT id, nombre, usuario, edad, telefono FROM usuarios";
+            $seleccion = "SELECT id, nombre, usuario, edad, contraseña,telefono FROM usuarios";
                 $result_select = $conexion->query($seleccion);
 
                 if ($result_select->num_rows > 0) {
@@ -50,7 +50,7 @@
                                     <input type='text' name='usuario' value='{$row['usuario']}'>
                                     <input type='number' name='edad' value='{$row['edad']}'>
                                     <input type='text' name='telefono' value='{$row['telefono']}'>
-                                    <input type='text' name='password' placeholder='Contraseña'>
+                                    <input type='text' name='password' value='{$row['contraseña']}'>
                                     <button type='submit' name='actualizar'>Actualizar</button>
                                 </form>
 
