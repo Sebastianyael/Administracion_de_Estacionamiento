@@ -1,9 +1,9 @@
-.button-produc{
+.button-mensualidades{
     background-color: var(--button-color);
     color: white;
 }
 
-.insertar-producto{
+.form-mensualidades{
     width: 97%;
     height: 17vh;
     display: flex;
@@ -12,7 +12,7 @@
         
 }
 
-.insertar-producto input,textarea{
+.form-mensualidades input,textarea{
     width: 20%;
     height: 4vh;
     padding: 5px;
@@ -21,7 +21,7 @@
     outline: none; 
 }
 
-.insertar-producto button{
+.form-mensualidades button{
     width: 15%;
         height: 4vh;
         border: none;
@@ -51,7 +51,7 @@
         transition: 0.4s ease all;
 }
 
-.productos-container{
+.mensualidades-container{
     width: 96%;
     height: 55vh;
     padding: 10px;
@@ -62,7 +62,7 @@
     
 }
 
-    .productos-container div{
+    .mensualidades-container div{
         width: 46%;
         height: 28vh;
         border-radius: 10px;

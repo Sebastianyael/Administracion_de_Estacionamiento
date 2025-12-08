@@ -99,6 +99,13 @@
                 Productos
             </button>
         </a>
+
+        <a href="./Screens/mensualidades.php">
+            <button type="submit" class="button button-mensualidades">
+                <i class="fa-solid fa-calendar-day"></i>
+                Mensualidades
+            </button>
+        </a>
     </aside>
 
     <div class="main">
@@ -192,6 +199,14 @@
                     <i class="fa-solid fa-cart-shopping"></i>
                     <h3>Productos</h3>
                     <p>Productos a la venta</p>
+                </div>
+            </a>
+
+            <a href="./Screens/mensualidades.php" class="ancla">
+                <div class="acceso-rapido-container">
+                    <i class="fa-solid fa-calendar-day"></i>
+                    <h3>Mensualidades</h3>
+                    <p>Adquiere una mensualidad</p>
                 </div>
             </a>
         </div>
