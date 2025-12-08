@@ -59,7 +59,7 @@
             </button>
         </a>
 
-        <a href="../Screens/Horarios.php">
+        <a href="../Screens/horarios.php">
             <button type="submit" class="button button-horarios">
                 <i class="fas fa-calendar-alt"></i>
                 Horarios
